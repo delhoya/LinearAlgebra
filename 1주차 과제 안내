@@ -31,16 +31,16 @@ print("y:",y)
 print("x와x의 내적값:",xx)
 print("x와y의 내적값:",yx)
 
-# y벡터의 x벡터로의 정사영 벡터 z = tx 
+# y벡터의 x벡터로의 정사영 벡터 p = tx 
 
 t = yx / xx
-z = t*x 
+p = t*x 
 
-print("t값",t)
-print("z벡터",z)
+print("정사영 벡터 p = tx일때 , t값",t)
+print("정사영 벡터 p",p)
 
-# w = y-z 성립
+# w = y-p (w+p = y 이므로)
 
-w = y-z
+w = y-p
 print("x에 수직인 벡터 ",w)
 
