@@ -23,3 +23,16 @@ print(theta)
 
 x = vector([2,-1,3])
 y = vector([4,-1,2])
+z = t*x
+x_norm = x.norm()
+pjtytox = y.inner_product(x)
+
+t = pjtytox / (x_norm)*(x_norm)
+
+w = y-z
+
+print(x)
+print(y)
+print(z)
+
+
