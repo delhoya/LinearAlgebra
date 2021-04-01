@@ -1,20 +1,24 @@
 
-Ax=b꼴이 solution을 가지기 위해서는 A matrix는 free variable을 가지면 안 된다고 했습니다.
+Ax = b  
 
+선형 연립 방정식 풀기 
+(상수항; Homo )
+(미지수개수 vs 방정식개수 : under / over) 
 
-Ax = b 꼴의 선형 연립 방정식 풀기 
 
   선형연립방정식 (미지수로 이루어진 1차식) 
   동차선형연립방정식 (상수항 전부 0)(항상 해를 가짐)
-  
   선형방정식의 해 / 해집합 (유일해 / 무수히 많은해 / 해 없는경우)
  
  ㅁ 미지수의 수와 방정식의 수
- https://jaredantrobus.com/teaching/2015/Summer/MA162/2.3.php
+https://jaredantrobus.com/teaching/2015/Summer/MA162/2.3.php
+http://blog.naver.com/PostView.nhn?blogId=qio910&logNo=221506757644&categoryNo=9&parentCategoryNo=&from=thumbnailList
+
 
  미지수 개수 = 방정식 개수 : 단 하나의 해 (기하학적으로는 점으로 표현됩니다.)
-	AX = B , B  = 0 
-	AX = B,  B != 0
+	
+	AX = B , B  = 0  :homogeneous system
+	AX = B,  B != 0  
 
  미지수 개수 > 방정식 개수 : 
 		(underdeterminded system)
@@ -27,7 +31,7 @@ Ax = b 꼴의 선형 연립 방정식 풀기
 	행의 개수는 굉장히 많지만 열의 개수는 그에 비해 적은, m>n
 	보통 해가 존재하지 않음, (다른 방정식이 종속이 아닐경우)
 	overdetermined system may also have infinitely many or no solutions:
-	AX = B , B  = 0 
+	AX = B , B  = 0  homogeneous system : 
 	AX = B , B != 0 
 	
 
