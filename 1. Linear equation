@@ -10,12 +10,14 @@ Ax = b 꼴의 선형 연립 방정식 풀기
  https://jaredantrobus.com/teaching/2015/Summer/MA162/2.3.php
 
  미지수 개수 = 방정식 개수 : 단 하나의 해 (기하학적으로는 점으로 표현됩니다.)
- 
+	AX = B , B  = 0 
+	AX = B,  B != 0
+
  미지수 개수 > 방정식 개수 : 
 		(underdeterminded system)
-	열의 개수는 굉장히 많지만 행의 개수는 그에 비해 적은, m < n.
-	AX = B , B = 0 / 선형동차연립방정식 : 해가 무수히 많은 경우
-	AX = B , B != 0 / 무수히 해가 많다 , 해가 하나도 없음
+	열의 개수(미지수) 굉장히 많지만 행의 개수(방정식) 는 그에 비해 적은, m < n.
+	AX = B , B = 0 / 선형동차연립방정식 : 해가 무수히 많은 경우 : 미지수의 개수가 더 많으므로 자유변수가 생김 
+	AX = B , B != 0 / 무수히 해가 많다 or 해가 하나도 없음 : 둘중 하나 
 	구분을 위해서는 가우스 소거법 
 
  미지수 개수 < 방정식 개수:  more equation than unknown
@@ -23,8 +25,10 @@ Ax = b 꼴의 선형 연립 방정식 풀기
 	행의 개수는 굉장히 많지만 열의 개수는 그에 비해 적은, m>n
 	보통 해가 존재하지 않음, (다른 방정식이 종속이 아닐경우)
 	overdetermined system may also have infinitely many or no solutions:
+	AX = B , B  = 0 
+	AX = B , B != 0 
 	
-	
+
   선형연립방정식과 행렬 (행렬의 상등) 
   
   행렬의 곱 + 첨가행렬 a.augment(b)
