@@ -1,4 +1,7 @@
 
+Ax=b꼴이 solution을 가지기 위해서는 A matrix는 free variable을 가지면 안 된다고 했습니다.
+
+
 Ax = b 꼴의 선형 연립 방정식 풀기 
 
   선형연립방정식 (미지수로 이루어진 1차식) 
