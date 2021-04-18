@@ -171,4 +171,64 @@ y = a+bx 에서의 a,b
 
 ################################################################################
 
+#7
 
+a = matrix ([[5,1,-3],[2,-1,-1]])
+print("행렬a는")
+print (a)
+print("===========")
+print("상수항")
+b = vector ([0,0])
+print (b)
+print("===========")
+print("a.solve_right(b)")
+print("동차선형연립방정식 자명해")
+
+print(a.solve_right(b))
+print("===========")
+
+aa = matrix([[5,1,-3,0],[2,-1,-1,-0]])
+print("상수를 첨가행렬로")
+print(aa)
+print("===========")
+print("RREF 계산")
+print(aa.rref())
+print("===========")
+
+
+ss = vector ([5,1,-3])
+qq = vector ([2,-1,-1])
+cp= ss.cross_product(qq)   
+print("벡터외적")
+print(cp)
+
+
+print("===========")
+
+print("정사영시킬 벡터 w 와 v")
+w =  vector([4,1,7])
+v =  vector([0,-1,4])
+
+print("w =",w)
+print("v =",v)
+
+print("===========")
+
+ww = w.inner_product(w)
+vw = v.inner_product(w)
+print("ww=",ww)
+print("vw=",vw)
+p = vw/ww 
+print("wv / ww =",p)
+print("wv / ww * w =" , p*w)
+
+################################################################################
+
+ww= 66
+vw= 27
+wv / ww = 9/22
+wv / ww * w = (18/11, 9/22, 63/22)
+
+################################################################################
+
+#8
